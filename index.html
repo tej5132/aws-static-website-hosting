@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CloudFlow | Deploy Smarter</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!--==============================
+BACKGROUND
+===============================-->
+
+<div class="background">
+
+<div class="gradient one"></div>
+
+<div class="gradient two"></div>
+
+<div class="grid"></div>
+
+<div class="noise"></div>
+
+</div>
+
+<!--==============================
+NAVIGATION
+===============================-->
+
+<header>
+
+<div class="logo">
+
+<div class="logo-circle"></div>
+
+CloudFlow
+
+</div>
+
+<nav>
+
+<a href="#">Overview</a>
+
+<a href="#">Pipeline</a>
+
+<a href="#">Architecture</a>
+
+<a href="#">Deployments</a>
+
+<a href="#">Contact</a>
+
+</nav>
+
+<div class="live-status">
+
+<span class="pulse"></span>
+
+LIVE
+
+</div>
+
+</header>
+
+<!--==============================
+HERO
+===============================-->
+
+<section class="hero">
+
+<div class="hero-left">
+
+<div class="tag">
+
+Deployment Platform
+
+</div>
+
+<h1>
+
+Build.
+
+<span>Deploy.</span>
+
+Scale.
+
+</h1>
+
+<p>
+
+A beautifully engineered cloud deployment experience powered by HTML, CSS, JavaScript and AWS S3 Static Website Hosting.
+
+Watch every deployment come alive through elegant motion, live metrics and a real-time deployment pipeline.
+
+</p>
+
+<div class="hero-buttons">
+
+<button class="primary">
+
+Launch Demo
+
+</button>
+
+<button class="secondary">
+
+View Architecture
+
+</button>
+
+</div>
+
+<div class="mini-stats">
+
+<div>
+
+<h2>99.99%</h2>
+
+<p>Availability</p>
+
+</div>
+
+<div>
+
+<h2>42ms</h2>
+
+<p>Latency</p>
+
+</div>
+
+<div>
+
+<h2>248</h2>
+
+<p>Deployments</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+
+<div class="deploy-circle">
+
+<div class="center-node">
+
+LIVE
+
+</div>
+
+<div class="orbit orbit1"></div>
+
+<div class="orbit orbit2"></div>
+
+<div class="orbit orbit3"></div>
+
+<div class="floating html">
+
+HTML
+
+</div>
+
+<div class="floating css">
+
+CSS
+
+</div>
+
+<div class="floating js">
+
+JS
+
+</div>
+
+<div class="floating aws">
+
+AWS
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--==============================
+PIPELINE
+===============================-->
+
+<section class="pipeline">
+
+<div class="section-title">
+
+<h2>Deployment Pipeline</h2>
+
+<p>Every deployment moves through an intelligent automated workflow.</p>
+
+</div>
+
+<div class="pipeline-container">
+
+<div class="step">
+
+<div class="icon">01</div>
+
+<h3>Write Code</h3>
+
+</div>
+
+<div class="line"></div>
+
+<div class="step">
+
+<div class="icon">02</div>
+
+<h3>Build</h3>
+
+</div>
+
+<div class="line"></div>
+
+<div class="step">
+
+<div class="icon">03</div>
+
+<h3>Optimize</h3>
+
+</div>
+
+<div class="line"></div>
+
+<div class="step">
+
+<div class="icon">04</div>
+
+<h3>Upload</h3>
+
+</div>
+
+<div class="line"></div>
+
+<div class="step">
+
+<div class="icon">05</div>
+
+<h3>Live</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<!--==============================
+METRICS
+===============================-->
+
+<section class="metrics">
+
+<div class="card">
+
+<h4>Status</h4>
+
+<h2>Healthy</h2>
+
+</div>
+
+<div class="card">
+
+<h4>Region</h4>
+
+<h2>ap-south-1</h2>
+
+</div>
+
+<div class="card">
+
+<h4>Requests</h4>
+
+<h2 id="requests">0</h2>
+
+</div>
+
+<div class="card">
+
+<h4>Latency</h4>
+
+<h2 id="latency">0ms</h2>
+
+</div>
+
+<div class="card">
+
+<h4>Storage</h4>
+
+<h2>428 MB</h2>
+
+</div>
+
+<div class="card">
+
+<h4>Version</h4>
+
+<h2>v2.5.1</h2>
+
+</div>
+
+</section>
+
+<!--==============================
+TERMINAL
+===============================-->
+
+<section class="terminal">
+
+<div class="terminal-header">
+
+<div class="buttons">
+
+<span></span>
+
+<span></span>
+
+<span></span>
+
+</div>
+
+<p>deployment.log</p>
+
+</div>
+
+<div class="terminal-body" id="terminal">
+
+</div>
+
+</section>
+
+<!--==============================
+ARCHITECTURE
+===============================-->
+
+<section class="architecture">
+
+<h2>Architecture</h2>
+
+<div class="architecture-grid">
+
+<div class="architecture-card">
+
+HTML
+
+<p>Application structure and semantic layout.</p>
+
+</div>
+
+<div class="arrow">→</div>
+
+<div class="architecture-card">
+
+CSS
+
+<p>Design system, responsiveness and animation.</p>
+
+</div>
+
+<div class="arrow">→</div>
+
+<div class="architecture-card">
+
+JavaScript
+
+<p>Interactions, counters and deployment logic.</p>
+
+</div>
+
+<div class="arrow">→</div>
+
+<div class="architecture-card">
+
+AWS S3
+
+<p>Reliable cloud hosting for static websites.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!--==============================
+TIMELINE
+===============================-->
+
+<section class="timeline">
+
+<h2>Deployment Timeline</h2>
+
+<ul>
+
+<li>✔ Code Written</li>
+
+<li>✔ Build Complete</li>
+
+<li>✔ Assets Optimized</li>
+
+<li>✔ Upload to AWS S3</li>
+
+<li>✔ Cache Invalidated</li>
+
+<li>✔ Website Live</li>
+
+</ul>
+
+</section>
+
+<footer>
+
+<div>
+
+CloudFlow
+
+</div>
+
+<div>
+
+HTML • CSS • JavaScript • AWS S3
+
+</div>
+
+<div>
+
+© 2026
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
